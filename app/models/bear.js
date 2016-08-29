@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const BearSchema = new mongoose.Schema({
-  name: string
+  name: String
 });
 
-module.exports = mongoose.model('BearSchema');
+module.exports = mongoose.model('Bear', BearSchema );
